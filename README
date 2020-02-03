@@ -1,0 +1,18 @@
+PR demo floorplan files.
+
+The config file is a text file with on each line
+something like:
+
+ 4 PR  210  29 110 192
+
+Meaning:
+4      = Node index (0..31)
+PR     = Node type. Either of CPU, PR, DMA, ICAP, or the contents of a fixed node,
+         for example "stream_mux" or "yuvtorgb".
+210... = The remaining 4 integers are the rectangle coordinates x, y, w, h.
+
+
+Create a floorplan Image as a screenshot from Vivado.
+Please run "optipng" to drastically reduce the size of the image.
+
+Note that the tdkzu9 info is just a copy of the 7030 for now, to be fixed soon.
