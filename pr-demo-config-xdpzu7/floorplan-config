@@ -1,5 +1,6 @@
- 3 stream_mux 192  90  48  48
- 4 stream_mux 192 156  48  48
+ 2 camera_xrgb 128 120  48  48
+ 3 stream_mux  192  90  48  48
+ 4 stream_mux  192 156  48  48
 
  5 PR  285 436  46 142
  6 PR  285 291  46 142
